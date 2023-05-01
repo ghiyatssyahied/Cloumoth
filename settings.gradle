@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        jcenter()
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            url "https://dl.bintray.com/gauravk95/maven"
+        }
+        google()
+        mavenCentral()
+        jcenter()
+    }
+}
+rootProject.name = "Cloumoth"
+include ':app'
